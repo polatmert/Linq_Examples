@@ -1,0 +1,6 @@
+c:\users\polat\documents\visual studio 2013\Projects\Linq_Examples\Linq_Examples\bin\Debug\Linq_Examples.exe.config
+c:\users\polat\documents\visual studio 2013\Projects\Linq_Examples\Linq_Examples\bin\Debug\Linq_Examples.exe
+c:\users\polat\documents\visual studio 2013\Projects\Linq_Examples\Linq_Examples\bin\Debug\Linq_Examples.pdb
+c:\users\polat\documents\visual studio 2013\Projects\Linq_Examples\Linq_Examples\obj\Debug\Linq_Examples.csprojResolveAssemblyReference.cache
+c:\users\polat\documents\visual studio 2013\Projects\Linq_Examples\Linq_Examples\obj\Debug\Linq_Examples.exe
+c:\users\polat\documents\visual studio 2013\Projects\Linq_Examples\Linq_Examples\obj\Debug\Linq_Examples.pdb

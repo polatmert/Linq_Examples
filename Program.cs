@@ -209,6 +209,26 @@ namespace Linq_Examples
 
             //*********************************************************************************************//
 
+            int[] list = { 1, 2, 3, -5, 5, 3, 2, 3, 4, 53, 6 };
+            int[] list2 = { 1,2, 111, 222, 323 };
+
+
+            Console.WriteLine("Count = {0} " , list.Distinct().Count());
+            Console.WriteLine("Sum = {0} ", list.Distinct().Sum());
+            Console.WriteLine("Max = {0} ", list.Max());
+            Console.WriteLine("Min = {0} ", list.Min());
+            Console.WriteLine("Avarage = {0}", list.Average());
+
+            var newList = list.Concat(list2);
+            foreach (var item in newList)
+            {
+                Console.WriteLine(item);
+            }
+
+            bool flag = list.SequenceEqual(list2);
+            
+            //*********************************************************************************************//
+
             Console.ReadLine();
         }
     }

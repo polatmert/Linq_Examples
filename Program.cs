@@ -19,7 +19,7 @@ namespace Linq_Examples
             //                 select n1;         //values
 
             //Console.WriteLine("Numbers greater than 4");
-            
+
             //foreach(var values in numberList)
             //{
             //    Console.WriteLine("Number : {0} " , values);
@@ -36,7 +36,7 @@ namespace Linq_Examples
             //              select new { list1, list2 }; //anonim type = temp
 
             //Console.WriteLine("List Comparison");
-           
+
             //foreach (var item in control)
             //{
             //    Console.WriteLine("Result  {0} < {1} " ,item.list1 , item.list2);
@@ -110,6 +110,102 @@ namespace Linq_Examples
             //    Console.WriteLine("Values : {0}" , item);
             //}
 
+
+            //*********************************************************************************************//
+
+
+            //string [] cities = { "izmir", "ankara", "antalya", "Bursa" };
+
+            //var list = from ct in cities orderby ct.Length descending select ct;
+
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //*********************************************************************************************//
+
+
+            //int[] listInt = { 1, 2, 2, 3, 4, 55, 6, 7, 7, 8, 1, 2 };
+
+            //var diff = listInt.Distinct();
+
+            //foreach (var item in diff)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //*********************************************************************************************//
+
+            //int[] list1 = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //int[] list2 = { 1, 2, 32, 43, 2, 4, 5, 6 };
+
+            //var Union = list1.Union(list2);
+
+            //foreach (var item in Union)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //*********************************************************************************************//
+
+            //int[] list1 = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //int[] list2 = { 1, 2, 32, 43, 2, 4, 5, 6 };
+
+            //var intersect = list1.Intersect(list2); 
+
+            //foreach (var item in intersect)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //*********************************************************************************************//
+
+            //list1 difference list2
+            //int[] list1 = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //int[] list2 = { 11, 2, 32, 43, 2, 4, 5, 6 };
+
+            //IEnumerable<int> numbers = list1.Except(list2);
+
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //*********************************************************************************************//
+
+            //object[] list = { "one", null, "two", 3.3, "pazartesi", "monday", 1.7};
+
+            //var doubleNumbers = list.OfType<double>();
+
+            //foreach (var item in doubleNumbers)
+            //{
+            //    Console.WriteLine("Double values : {0}", item);
+            //}
+
+            //*********************************************************************************************//
+
+            //var numbers = from s in Enumerable.Range(1, 50)
+            //              select new { number = s, tekSayi = s % 2 == 1 ? "Single" : "Even" };
+
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            //*********************************************************************************************//
+
+            //int[] numbers = { 2, 4, 6, 8, 10, 12 };
+            ////return bool type 
+            //bool cift = numbers.All(s => s % 2 == 0);
+            //Console.WriteLine("cift  ? = > {0}", cift);
+
+            //*********************************************************************************************//
+
+            //string[] list = { "sta", "stack", "stackover", "stackoverflow" };
+            //bool flag = list.Any(x => x.Contains("sta"));
+            //Console.WriteLine(flag);
 
             //*********************************************************************************************//
 
